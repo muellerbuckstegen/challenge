@@ -1,0 +1,20 @@
+/* @CHARSET "UTF-8";*/
+body, code {
+	font-family: Courier, monospace;
+}
+
+table {
+	background: #fdecf0;
+}
+
+td {
+	border: 20px solid white;
+	padding: 5px;
+}
+
+th {
+	font-size: 15px;
+	text-transform: uppercase;
+	border: 20px solid white;
+	padding: 10px;
+}
