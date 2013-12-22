@@ -3,7 +3,7 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
   font-family: Courier, Courier New, monospace;
-  color: #e98a24;
+  color: #ff6600;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
 
 .navbar
 {
-  background: #e98a24;
+  background: #ff6600;
 }
 
 .navbar-inverse
@@ -32,6 +32,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
 {
   color: #ffffff;
   font-size: 22px;
+  font-weight: 600;
 }
 
 a
@@ -55,5 +56,9 @@ a
   color: #ffffff;
 }
 
-
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus
+{
+  color: #ff6600;
+  background-color: #ffffff;
+}
 
