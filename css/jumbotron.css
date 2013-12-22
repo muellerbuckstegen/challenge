@@ -3,20 +3,20 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
   font-family: Courier, Courier New, monospace;
-  color: #ff6600;
+  color: #ff0000;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
 {
   font-family: Courier, Courier New, monospace;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 1.1;
   color: inherit;
 }
 
 .navbar
 {
-  background: #ff6600;
+  background: #ff0000;
 }
 
 .navbar-inverse
@@ -32,7 +32,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
 {
   color: #ffffff;
   font-size: 22px;
-  font-weight: 600;
 }
 
 a
@@ -43,7 +42,6 @@ a
 .navbar-nav > li > a
 {
   color: #ffffff;
-  font-weight: 600;
 }
 
 .nav > li > a:hover, .nav > li > a:focus
@@ -58,7 +56,7 @@ a
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus
 {
-  color: #ff6600;
+  color: #ff0000;
   background-color: #ffffff;
 }
 
