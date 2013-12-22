@@ -1,0 +1,59 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: Courier, Courier New, monospace;
+  color: #e98a24;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
+{
+  font-family: Courier, Courier New, monospace;
+  font-weight: 800;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.navbar
+{
+  background: #e98a24;
+}
+
+.navbar-inverse
+{
+  background-color: none;
+  border-top-color: #ffffff;
+  border-right-color-value: #ffffff;
+  border-bottom-color: #ffffff;
+  border-left-color-value: #ffffff;
+}
+
+.navbar-inverse .navbar-brand
+{
+  color: #ffffff;
+  font-size: 22px;
+}
+
+a
+{
+  font-size: 22px;
+}
+
+.navbar-nav > li > a
+{
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.nav > li > a:hover, .nav > li > a:focus
+{
+  background-color: #fffff;
+}
+
+.navbar-inverse .navbar-nav > li > a
+{
+  color: #ffffff;
+}
+
+
+

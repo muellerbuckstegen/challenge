@@ -2,125 +2,196 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+    
 
-    <title>Basic Company Template for Bootstrap 3</title>
+    <title>MOOC</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="../../dist/css/bootstrap.css" rel="stylesheet">
 
-    <!-- Custom CSS for the 'Heroic Features' Template -->
-    <link href="css/heroic-features.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/jumbotron.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
   </head>
 
   <body>
 
-    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">Start Bootstrap</a>
+          <a class="navbar-brand" href="index.html">MOOC Web-Engineering I</a>
         </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
+        
+        <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
+             <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">AUFGABEN <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="formular.html" target="_blank">Barrierefreies Suchformular</a></li>
+                <li><a href="tabelle.html" target="_blank">Tabelle der XHTML 1.0 strict-Elemente</a></li>
+            
+              </ul>
+            </li>
+            <li><a href="impressum.html">IMPRESSUM</a></li>
+           
           </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
-    </nav>
-    
-    <div class="container">
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+        
+      </div>
+    </div>
 
-      <div class="jumbotron hero-spacer">
-        <h1>Hallo liebe KursCommunity!</h1>
-        <p>Was kann man hier nicht alles publizieren!</p>
-        <p><a class="btn btn-primary btn-large">Und los!</a></p>
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Kapitel 1 / Virtuelle Maschine</h2>
+          <p>Eine virtuelle Maschine, kurz VM, ist ein Computer, der mittels Virtualisierung nicht direkt auf einer Hardware ausgeführt wird. Eine virtuelle Maschine wird durch einen Hypervisor bereitgestellt. Auf einem physischen Computer können gleichzeitig mehrere virtuelle Maschinen betrieben werden. Diese Eigenschaft wird insbesondere bei Servern genutzt... </p>
+          <p><a class="btn btn-default" href="https://de.wikipedia.org/wiki/Virtuelle_Maschine" target="_blank" role="button">Das will ich wissen &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Kapitel 1 / <br />Eclipse (IDE)</h2>
+          <p>Eclipse (von englisch eclipse „Sonnenfinsternis“, „Finsternis“, „Verdunkelung“) ist ein quelloffenes Programmierwerkzeug zur Entwicklung von Software verschiedenster Art. Ursprünglich wurde Eclipse als integrierte Entwicklungsumgebung (IDE) für die Programmiersprache Java genutzt, aber mittlerweile wird es wegen seiner Erweiterbarkeit auch für viele andere Entwicklungsaufgaben eingesetzt...</p>
+          <p><a class="btn btn-default" href="https://de.wikipedia.org/wiki/Eclipse_%28IDE%29" target="_blank" role="button">Das will ich wissen &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Kapitel 1 / Git</h2>
+          <p>Git (engl. 'Blödmann') ist eine freie Software zur verteilten Versionsverwaltung von Dateien, die ursprünglich für die Quellcode-Verwaltung des Linux-Kernels entwickelt wurde. Git ist ein verteiltes Versionsverwaltungssystem, das sich in einigen Eigenschaften von traditionellen Versionskontrollsystemen unterscheidet...</p>
+          <p><a class="btn btn-default" href="https://de.wikipedia.org/wiki/Git"  target="_blank" role="button">Das will ich wissen &raquo;</a></p>
+        </div>
       </div>
       
-      <hr>
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Kapitel 2 / Ping (Datenübertragung)</h2>
+          <p>Ping ist ein Diagnose-Werkzeug, mit dem überprüft werden kann, ob ein bestimmter Host in einem IP-Netzwerk erreichbar ist. Daneben geben die meisten heutigen Implementierungen dieses Werkzeuges auch die Zeitspanne zwischen dem Aussenden eines Paketes zu diesem Host und dem Empfangen eines daraufhin unmittelbar zurückgeschickten Antwortpaketes an (= Paketumlaufzeit, meist Round trip time oder RTT genannt). Das Programm wird üblicherweise als Konsolenbefehl ausgeführt...</p>
+          <p><a class="btn btn-default" href="https://de.wikipedia.org/wiki/Ping_%28Daten%C3%BCbertragung%29" target="_blank" role="button">Das will ich wissen &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Kapitel 2 / Traceroute</h2>
+          <p>Traceroute ist ein Computerprogramm, das ermittelt, über welche Router und Internet-Knoten IP-Datenpakete bis zum abgefragten Rechner gelangen.</p>
+          <p><a class="btn btn-default" href="https://de.wikipedia.org/wiki/Traceroute" target="_blank" role="button">Das will ich wissen &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Kapitel 3 / Representational State Transfer</h2>
+          <p>Representational State Transfer (mit dem Akronym REST, seltener auch ReST) bezeichnet ein Programmierparadigma für Webanwendungen. Es gibt keine explizite Norm, daher gehen die Vorstellungen, was REST ist, auseinander. Im Grunde bezeichnet REST die Idee, dass eine URL genau einen Seiteninhalt als Ergebnis einer serverseitigen Aktion (etwa das Anzeigen einer Trefferliste nach einer Suche) darstellt, wie es der Internetstandard HTTP für statische Inhalte (Permalinks) bereits vorsieht; ein Ziel, das für dynamisch erzeugte Seiten mitunter jedoch zusätzlichen Aufwand erfordert...</p>
+          <p><a class="btn btn-default" href="https://de.wikipedia.org/wiki/Representational_State_Transfer" target="_blank" role="button">Das will ich wissen &raquo;</a></p>
+        </div>
+      </div>
       
       <div class="row">
-        <div class="col-lg-12">
-           <h3>Latest Features</h3>
+        <div class="col-md-4">
+          <h2>Kapitel 3 / Hypertext Transfer Protocol</h2>
+          <p>Das Hypertext Transfer Protocol (HTTP, deutsch Hypertext-Übertragungsprotokoll) ist ein Protokoll zur Übertragung von Daten über ein Netzwerk. Es wird hauptsächlich eingesetzt, um Webseiten aus dem World Wide Web (WWW) in einen Webbrowser zu laden.
+
+HTTP gehört der sogenannten Anwendungsschicht etablierter Netzwerkmodelle an. Die Anwendungsschicht wird von den Anwendungsprogrammen angesprochen, im Fall von HTTP ist das meist ein Webbrowser. Im ISO/OSI-Schichtenmodell entspricht die Anwendungsschicht den Schichten 5–7...</p>
+          <p><a class="btn btn-default" href="https://de.wikipedia.org/wiki/Hypertext_Transfer_Protocol" target="_blank" role="button">Das will ich wissen &raquo;</a></p>
         </div>
-      </div><!-- /.row -->
+        <div class="col-md-4">
+          <h2>Kapitel 3 / Uniform Resource Locator</h2>
+          <p>Ein Uniform Resource Locator (Abk. URL; englisch für einheitlicher Quellenanzeiger) identifiziert und lokalisiert eine Ressource wie z. B. eine Website über die zu verwendende Zugriffsmethode (z. B. das verwendete Netzwerkprotokoll wie HTTP oder FTP) und den Ort (engl. location) der Ressource in Computernetzwerken. Der aktuelle Stand ist als RFC 1738 publiziert. Die RFC-Spezifikationen sind industrielle Standards der Internet Foundation IETF.
+
+URLs sind eine Unterart der generellen Identifikationsbezeichnung mittels Uniform Resource Identifiern (URIs). Da URLs die erste und häufigste Art von URIs darstellen, werden die Begriffe häufig synonym verwendet. Im allgemeinen Sprachgebrauch werden URLs auch als Internetadresse oder Webadresse bezeichnet,[1] wobei damit (der umgangssprachlich häufigen Gleichsetzung von Internet und WWW[2] folgend) meist speziell URLs von Webseiten gemeint sind...</p>
+          <p><a class="btn btn-default" href="https://de.wikipedia.org/wiki/Uniform_Resource_Locator" target="_blank" role="button">Das will ich wissen &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Kapitel 4 / Hypertext Markup Language</h2>
+          <p>Die Hypertext Markup Language (engl. ‚Hypertext-Auszeichnungssprache‘), abgekürzt HTML, ist eine textbasierte Auszeichnungssprache zur Strukturierung von Inhalten wie Texten, Bildern und Hyperlinks in Dokumenten. HTML-Dokumente sind die Grundlage des World Wide Web und werden von einem Webbrowser dargestellt. Neben den vom Browser angezeigten Inhalten einer Webseite enthält HTML zusätzliche Angaben in Form von Metainformationen, die z. B. über die im Text verwendete Sprache oder den Autor Auskunft geben oder den Inhalt des Textes zusammenfassen...</p>
+          <p><a class="btn btn-default" href="https://de.wikipedia.org/wiki/Hypertext_Markup_Language" target="_blank" role="button">Das will ich wissen &raquo;</a></p>
+        </div>
+      </div>
       
-      <div class="row text-center">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Kapitel 4 / Markdown</h2>
+          <p>Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist. Als Auszeichnungselemente wurden daher vor allem Auszeichnungsarten verwendet, die in Plaintext und E-Mails üblich sind. Auch andere Auszeichnungssprachen mit ähnlichen Zielen zur Lesbarkeit – wie reStructuredText oder Textile – hatten Einfluss auf die Syntax.
 
-        <div class="col-lg-3 col-md-6 hero-feature">
-          <div class="thumbnail">
-            <img src="http://placehold.it/800x500" alt="">
-            <div class="caption">
-              <h3>Feature Label</h3>
-              <p>This would be a great spot to feature some brand new products!</p>
-              <p><a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a></p>
-            </div>
-          </div>
+Die Markdown-Konvertierungssoftware wandelt Text in gültiges und W3C-konformes XHTML um. Die Referenzimplementierung in Perl steht unter einer BSD-artigen Lizenz. Weiter sind inzwischen Implementierungen in den gängigsten Programmiersprachen wie C (z. B.[1]), PHP (z. B. [2]), Python (z. B. [3]) oder JavaScript (z. B. [4]) verfügbar. Als Auszeichnungssprache wird Markdown in Content-Management-Systemen verwendet...</p>
+          <p><a class="btn btn-default" href="https://de.wikipedia.org/wiki/Markdown" target="_blank" role="button">Das will ich wissen &raquo;</a></p>
         </div>
-
-        <div class="col-lg-3 col-md-6 hero-feature">
-          <div class="thumbnail">
-            <img src="http://placehold.it/800x500" alt="">
-            <div class="caption">
-              <h3>Feature Label</h3>
-              <p>This would be a great spot to feature some brand new products!</p>
-              <p><a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a></p>
-            </div>
-          </div>
+        <div class="col-md-4">
+          <h2>Kapitel 4 / UTF-8</h2>
+		  <p>UTF-8 (Abk. für 8-Bit UCS Transformation Format, wobei UCS wiederum Universal Character Set abkürzt) ist die am weitesten verbreitete Kodierung für Unicode-Zeichen (Unicode und UCS sind praktisch identisch). Die Kodierung wurde im September 1992 von Ken Thompson und Rob Pike bei Arbeiten an dem Plan 9-Betriebssystem festgelegt. Die Kodierung wurde zunächst im Rahmen von X/Open als FSS-UTF (filesystem safe UTF in Abgrenzung zu UTF-1, das diese Eigenschaft nicht hat) bezeichnet, in den Folgejahren erfolgte im Rahmen der Standardisierung die Umbenennung auf die heute übliche Bezeichnung UTF-8...</p>
+          <p><a class="btn btn-default" href="https://de.wikipedia.org/wiki/UTF-8" target="_blank" role="button">Das will ich wissen &raquo;</a></p>
         </div>
+        <div class="col-md-4">
+          <h2>Kapitel 5 / Cascading Style Sheets</h2>
+          <p>Cascading Style Sheets (englische Aussprache [kæsˌkeɪdɪŋˈstaɪlʃiːts]; für stufenförmige oder (hintereinander) geschachtelte Gestaltungsvorlagen), kurz CSS genannt, ist eine deklarative Sprache für Stilvorlagen (engl. stylesheets) von strukturierten Dokumenten. Sie wird vor allem zusammen mit HTML und XML (zum Beispiel bei SVG) eingesetzt.
 
-        <div class="col-lg-3 col-md-6 hero-feature">
-          <div class="thumbnail">
-            <img src="http://placehold.it/800x500" alt="">
-            <div class="caption">
-              <h3>Feature Label</h3>
-              <p>This would be a great spot to feature some brand new products!</p>
-              <p><a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a></p>
-            </div>
-          </div>
+Grundidee beim Entwurf von CSS war es, mittels HTML oder XML nur die inhaltliche Untergliederung eines Dokumentes und die Bedeutung seiner Teile zu beschreiben, während mittels CSS weitgehend unabhängig davon die konkrete Darstellung (Farben, Layout, Schrifteigenschaften usw.) der Teile festgelegt wird...</p>
+          <p><a class="btn btn-default" href="https://de.wikipedia.org/wiki/Cascading_Style_Sheets"  target="_blank" role="button">Das will ich wissen &raquo;</a></p>
         </div>
-
-        <div class="col-lg-3 col-md-6 hero-feature">
-          <div class="thumbnail">
-            <img src="http://placehold.it/800x500" alt="">
-            <div class="caption">
-              <h3>Feature Label</h3>
-              <p>This would be a great spot to feature some brand new products!</p>
-              <p><a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a></p>
-            </div>
-          </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Kapitel 8 / Responsive Webdesign</h2>
+          <p>Beim Responsive Webdesign (im Deutschen auch responsives Webdesign) handelt es sich um einen gestalterischen und technischen Ansatz zur Erstellung von Websites, so dass diese Websites auf Eigenschaften des jeweils benutzten Endgeräts reagieren können. Der grafische Aufbau einer „responsiven“ Webseite erfolgt anhand der Anforderungen des jeweiligen Gerätes, mit dem die Seite betrachtet wird. Dies betrifft insbesondere die Anordnung und Darstellung einzelner Elemente, wie beispielsweise Navigationen, Seitenspalten und Texte. Technische Basis hierfür sind neuere Webstandards wie HTML5, CSS3 und JavaScript...</p>
+          <p><a class="btn btn-default" href="https://de.wikipedia.org/wiki/Responsive_Webdesign" target="_blank" role="button">Das will ich wissen &raquo;</a></p>
         </div>
+        <div class="col-md-4">
+          <h2>Kapitel 8 / Millersche Zahl</h2>
+		  <p>Die Millersche Zahl bezeichnet die von George A. Miller festgestellte Tatsache, dass ein Mensch gleichzeitig nur 7 ± 2 Informationseinheiten (Chunks) im Kurzzeitgedächtnis präsent halten kann. Die Größe des Kurzzeitgedächtnisses ist genetisch determiniert und kann auch durch „Training“ nicht gesteigert werden. Der diesbezüglich von Miller verfasste Artikel The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information ist einer der meistzitierten Artikel im Bereich der Psychologie...</p>
+          <p><a class="btn btn-default" href="https://de.wikipedia.org/wiki/Millersche_Zahl" target="_blank" role="button">Das will ich wissen &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Kapitel 8 / Bootstrap (Framework)</h2>
+          <p>Bootstrap ist eine freie Sammlung von Hilfsmitteln für die Gestaltung von Websites und Webanwendungen. Es enthält auf HTML und CSS basierende Gestaltungsvorlagen für Typografie, Formulare, Buttons, Tabellen, Grid-System, Navigations- und andere Oberflächengestaltungselemente sowie zusätzliche, optionale JavaScript-Erweiterungen. Es ist das populärste Projekt beim Open-Source-Hostingdienst GitHub[3][4] und wird unter anderem von der NASA und MSNBC eingesetzt...</p>
+          <p><a class="btn btn-default" href="https://de.wikipedia.org/wiki/Bootstrap_%28Framework%29"  target="_blank" role="button">Das will ich wissen &raquo;</a></p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Kapitel 9 / Do Not Track</h2>
+          <p>Do Not Track (DNT) (engl. für „nicht verfolgen“) ist ein so genanntes HTTP-Header-Feld und signalisiert einer Webseite oder Webanwendung den Wunsch, dass diese über die Aktivitäten des Besuchers kein Nutzungsprofil erstellt. DNT wurde 2009 von Christopher Soghoian, Sid Stamm und Dan Kaminsky[1] vorgeschlagen. Zurzeit wird es durch die W3C standardisiert.[2] Firefox war der erste Browser der dieses Feld unterstützte, später folgten Internet Explorer (ab Version 9)[3], Safari, Opera und Chrome...</p>
+          <p><a class="btn btn-default" href="https://de.wikipedia.org/wiki/Do_Not_Track" target="_blank" role="button">Das will ich wissen &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Kapitel 9 / Apache JMeter</h2>
+		  <p>Apache JMeter ist ein freies, in Java geschriebenes Werkzeug zum Ausführen von Lasttests in Client/Server-Anwendungen, das von der Apache Software Foundation entwickelt wird.
 
-
-      </div><!-- /.row -->
+JMeter ermöglicht es mittels Zusammenstellen eines Testplanes zu spezifizieren, welche Teile der Anwendung (wie beispielsweise multi-threaded) durchlaufen werden sollen, um konkrete Ergebnisse über das Antwortzeitverhalten zu bekommen...</p>
+          <p><a class="btn btn-default" href="https://de.wikipedia.org/wiki/Apache_JMeter" target="_blank" role="button">Das will ich wissen &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Kapitel 9 / SMART (Projektmanagement)</h2>
+          <p>SMART ist ein Akronym für „Specific Measurable Accepted Realistic Timely“ und dient z.B. im Projektmanagement, aber auch im Rahmen von Mitarbeiterführung und Personalentwicklung als Kriterium zur eindeutigen Definition von Zielen im Rahmen einer Zielvereinbarung...</p>
+          <p><a class="btn btn-default" href="https://de.wikipedia.org/wiki/SMART_%28Projektmanagement%29"  target="_blank" role="button">Das will ich wissen &raquo;</a></p>
+        </div>
+      </div>
       
       <hr>
 
       <footer>
-        <div class="row">
-          <div class="col-lg-12">
-            <p>Copyright &copy; Company 2013 &middot; Facebook &middot; Twitter &middot; Google+</p>
-          </div>
-        </div>
+        <p>&copy; MOOC 2013</p>
       </footer>
-      
-    </div><!-- /.container -->
+    </div> <!-- /container -->
 
-  <!-- javascript -->
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.js"></script>
 
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
   </body>
-
 </html>
